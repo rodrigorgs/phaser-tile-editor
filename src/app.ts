@@ -1,10 +1,12 @@
 import "phaser";
+import { MainScene } from './main-scene';
 
 const config : Phaser.Types.Core.GameConfig = {
   title: "Phaser Tile Editor",
-  width: 800,
-  height: 600,
+  width: 480,
+  height: 320,
   parent: "game",
+  scene: [MainScene],
   backgroundColor: "#ccff00"
 };
 
